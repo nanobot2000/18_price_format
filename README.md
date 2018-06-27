@@ -25,6 +25,13 @@ Example of script launch on Linux, Python 3.6:
 $ python3 format_price.py -p 4843435.53000
 4 843 435.53
 ```
+For use format price function in your project
+```python
+from format_price import format_price
+```
+```python
+format_price(price)
+```
 
 Run the tests: 
 ```bash

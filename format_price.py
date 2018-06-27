@@ -2,6 +2,8 @@ import argparse
 
 
 def format_price(price):
+    if isinstance(price, bool):
+        return None
     try:
         price = round(float(price), 2)
         if float.is_integer(price):
