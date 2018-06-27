@@ -46,10 +46,10 @@ class TestFormatPrice(unittest.TestCase):
     def test_price_is_boolean_true(self):
         self.assertIsNone(format_price(True))
 
-    def test17_price_is_boolean_false(self):
+    def test_price_is_boolean_false(self):
         self.assertIsNone(format_price(False))
 
-    def test18_price_object_is_none(self):
+    def test_price_object_is_none(self):
         self.assertIsNone(format_price(None))
 
 
